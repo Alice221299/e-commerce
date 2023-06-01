@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/admin-info.css">
+    <title>Admin page</title>
+</head>
+<body>
+    <main>
+        <section class="product-add">
+            <img src="../icons/product.svg" alt="Icon for product">
+            <h1>Create or modify a product</h1>
+            <form class="product-form">
+                <label for="name">Product name</label>
+                <input id="name" type="text" required>
+                <label for="image">Product Image URL</label>
+                <input id="image" type="text" required>
+                <label for="category">Product category</label>
+                <input id="category" type="text" required>
+                <label for="volume">Product volume</label>
+                <input id="volume" type="text" required>
+                <label for="company">Company selling this product</label>
+                <input id="company" type="text" required>
+                <label for="price">Product current price</label>
+                <input id="price" type="text" required>
+                <label for="old_price">Product old price</label>
+                <input id="old_price" type="text" required>
+                <button id="btn-form" type="submit">Submit</button>
+            </form>
+        </section>
+        <h2>List of existing products</h2>
+        <section id="products-info">
+            
+        </section>
+        <h2>List of purchases</h2>
+        <section id="purchases"></section>
+        <p class="notification"></p>
+    </main>
+    <script src="../scrypts/admin-info.js"></script>
+</body>
+</html>

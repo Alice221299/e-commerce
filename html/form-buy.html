@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/form-buy.css" />
+    <title>Form buy</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form__container">
+        <div class="form-group">
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            placeholder="Nombre"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="direccion"
+            name="direccion"
+            required
+            placeholder="Direccion"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="telefono"
+            name="telefono"
+            required
+            placeholder="Teléfono"
+          />
+        </div>
+        <div class="btn-group">
+          <a class="btn cancel" href="../html/cart.html">Cancel</a>
+          <button type="submit" class="btn" href="#">Buy Now</button>
+        </div>
+      </form>
+    </div>
+    <p class="notification"></p>
+  <script src="../scrypts/form-buy.js"></script>
+  </body>
+</html>

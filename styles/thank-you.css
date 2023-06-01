@@ -1,0 +1,67 @@
+:root {
+    --main-green: #0DA487;
+    --main-red: #FF4F4F;
+    --bg-grey: #F8F8F8;
+    --main-yellow: #FFBA00;
+    --secondary-text: #5D5D5D;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.thank-you-container {
+    background-color: var(--main-green);
+    position: relative;
+    margin: 100px 30%;
+    padding: 100px 10% 80px;
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.4);
+    color: var(--bg-grey);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.thank-you-container figure {
+    width: 150px;
+    position: absolute;
+    top: -70px;
+    left: 35%;
+}
+
+.thank-you-container figure img {
+    width: 100%;
+}
+
+.thank-you-container h1{
+    font-size: 3em;
+    padding-bottom: 15px;
+}
+
+.thank-you-container p{
+    padding: 60px 0;
+    font-size: 24px;
+}
+
+.thank-you-container button {
+    color: var(--secondary-text);
+  border: 6px solid var(--main-yellow);
+  border-radius:15px;
+  padding: 10px 20px;
+  font-size: 20px;
+  letter-spacing:5px;
+  cursor: pointer;
+  font-weight: bold;
+  filter: drop-shadow(0 0 15px var(--main-yellow)) drop-shadow(0 0 50px var(--main-yellow)) contrast(2) brightness(2);
+}
+
+.thank-you-container button:hover {
+  color: white;
+  background-color: var(--main-yellow);
+  filter: drop-shadow(0 0 20px var(--main-yellow)) contrast(2) brightness(2);
+}
